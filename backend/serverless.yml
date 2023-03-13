@@ -22,7 +22,7 @@ provider:
     apiGateway: true
 
   # Use these variables in the functions and resouorces section below. For example, 
-  # ${self:provider.environment.ATTACHMENT_S3_BUCKET}
+  # ${self:provider.environment.ATTACHMENT_S3_BUCKET}.
   environment:
     TODOS_TABLE: Serverless-todo-app-${self:provider.stage}
     TODOS_CREATED_AT_INDEX: CreatedAtIndex
